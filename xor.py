@@ -6,9 +6,9 @@ import chainer.links  as L
 import sys
 
 batchsize = 2
-n_epoch   = 20
-n_units   = 2
-Ni        = 8
+n_epoch   = 1000
+n_units   = 12
+N         = 8
 
 data = np.array([
     [1, 1],
